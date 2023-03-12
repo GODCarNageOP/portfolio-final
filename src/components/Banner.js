@@ -2,13 +2,14 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import carnage from '../assets/img/carnage.png';
+import yash from "../assets/img/Yash_Inhouse.jpg";
 
 
 const Banner = () => {
 
 const [loopNum, setLoopNum] = useState(0);
 const [isDeleting, setIsDeleting] = useState(false);
-const toRotate = [ "(Web Developer)", "(Graphic Designer)", "(Video Editor)" ];
+const toRotate = [ "(Web Developer)", "(Graphic Designer)", "(Youtuber)" ];
 const [text, setText] = useState('');
 const [delta, setDelta] = useState(300 - Math.random() * 100);
 const period = 2000;
@@ -53,7 +54,7 @@ const tick = () => {
                         <button onClick={() => console.log('connect')}>Lets Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={carnage} alt="Header Img" />
+                        <img src={yash} alt="Header Img" />
                     </Col>
                 </Row>
             </Container>

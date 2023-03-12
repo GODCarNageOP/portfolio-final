@@ -68,7 +68,7 @@ const Contact = () => {
                   We'll never share your email with anyone else.
                 </small>
               </div>
-              <div className="form-group form-check">
+              <div className="form-group form-id">
                 <label className="form-check-label" htmlFor="exampleCheck1">
                   Message
                 </label>

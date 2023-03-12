@@ -1,41 +1,44 @@
 import { Container, Tab, Row, Col, Nav } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import weatherApp from "../assets/img/weatherapp.png";
+import youtubeApp from "../assets/img/youtubeapp.png";
+import earth from "../assets/img/earth.png";
+import cryptoTracker from "../assets/img/cryptotracker.png";
+import chatgpt from "../assets/img/chatgpt.png";
+import docs from "../assets/img/docs.png";
 
 const Projects = () => {
 
     const projects = [
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
+          title: "ChatGPT 2.0",
+          description: "Advance ChatGPT which works on voice assistant.",
+          imgUrl: chatgpt,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
+          title: "Weather App",
+          description: "Weather analysis based on live location.",
+          imgUrl: weatherApp,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
+          title: "Youtube 2.0",
+          description: "Advance Youtube clone",
+          imgUrl: youtubeApp,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg1,
+          title: "Crypto Tracker",
+          description: "Cryptocurrency Tracker.",
+          imgUrl: cryptoTracker,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg2,
+          title: "Google Docs",
+          description: "Live Google Docs clone.",
+          imgUrl: docs,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
-          imgUrl: projImg3,
+          title: "3D Earth",
+          description: "3D Earth with 3D Sun & Moon.",
+          imgUrl: earth,
         },
       ];
 
@@ -45,7 +48,7 @@ const Projects = () => {
                 <Row>
                     <Col>
                     <h2>Projects</h2>
-                    <p>This is a selection of designs I have created in the past, for various clients.</p>
+                    <p>Let our advance worrying become advance thinking and planning.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
